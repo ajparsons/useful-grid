@@ -1,14 +1,7 @@
 # -*- coding: utf-8 -*-
-'''
-Created on Jul 25, 2016
-
-@author: Alex
-'''
 import codecs
-try:
-    from decorators import use_self_property
-except:
-    from useful_inkleby.decorators import use_self_property
+
+from useful_decorator import use_self_property
 import six
 
 if six.PY2:
