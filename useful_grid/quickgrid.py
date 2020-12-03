@@ -1,6 +1,5 @@
 '''
 QuickGrid library - very simple communication with spreadsheets. 
-v1
 '''
 import csv
 import unicodecsv as ucsv
@@ -10,7 +9,6 @@ from collections import Counter
 import codecs
 import sys
 import six
-csv.field_size_limit(sys.maxsize)
 
 try:
     from openpyxl import load_workbook
